@@ -18,9 +18,9 @@ Flixter is an app that allows users to browse movies from the [The Movie Databas
 - [ ] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="" width=250><br>
+<img src="https://github.com/mdarwish2020/Flixter/blob/main/flixter.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+Although the app seems rather straight forward, I faced many issues on my end in terms of having a server that'll be able to support what I'm doing and display it correctly. 
+I was mainly using a MacinCloud managed server but it kept crashing, freezing, and experiencing a lot of latency. The main issue however, was when I was trying to get AlamofireImage setup. This is quite literally supposed to be the simplist part of the process but it gave error messages upon error messages when trying to get anything in terms of pods to work. Thankfully the fau remote server became available so I pivoted in that direction and was able to get everything setup super quickly with no issues, except that the simulator was not working. So, I decided to use the simulator on the MacinCloud server where the AlamofireImage files worked as package dependency not as a workspace file. In the end, I completed on MacinCloud so I can use the simulator to ensure everything is working the way it should be; then I went on the fau virtual portal and redid all the steps but with the workspace file (this was mainly to make sure I fully understood how to do everything). All I can see is that the build was successful but can't actually see the simulator.
