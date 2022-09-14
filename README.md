@@ -13,7 +13,7 @@ Flixter is an app that allows users to browse movies from the [The Movie Databas
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://github.com/mdarwish2020/Flixter/blob/main/Flixter_P2.gif" width=250><br>
 
 
 ---
